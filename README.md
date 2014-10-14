@@ -71,8 +71,9 @@ you don't have `pip` installed, you can install it with `easy_install pip`.
       * Ask another active developer for a mysqldump of their local database.
 5. Install the compiled and development requirements:
    ```sh
-   $ pip install -r requirements/compiled.txt
-   $ pip install -r requirements/dev.txt
+   $ cd requirements
+   $ pip install -r compiled.txt
+   $ pip install -r dev.txt
    ```
    _Note_: On OS X (in particular 10.8.5, Xcode 5.1), you may encounter the following error: `clang: error: unknown argument. '-mno-fused-madd'`. Try running pip with the `ARCHFLAGS` environment variable set, as follows: `ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future pip install -r requirements/compiled.txt` 
 
