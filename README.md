@@ -81,6 +81,7 @@ you don't have `pip` installed, you can install it with `easy_install pip`.
    `oneanddone/settings/local.py` and customizing the settings in it:
 
    ```sh
+   $ cd ..
    $ cp oneanddone/settings/local.py-dist oneanddone/settings/local.py
    ```
 
